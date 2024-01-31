@@ -20,6 +20,7 @@ Route::get('/', [indexController::class,'index']);
 
 Route::get('/guardar', [indexController::class, 'guardar']);
 Route::get('/leer', [indexController::class, 'leer']);
+Route::get('/guardarpdf',[indexController::class, 'guardarpdf']);
 
 
 // Route::get('curso/{variableURL}', function($variableURL){
