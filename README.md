@@ -1,3 +1,17 @@
+Practicas en laravel, entre ellas: registro a base de datos, lectura de base de datos, navegacion, Creacion de informe pdf
+
+![Alt text](image.png)
+
+http://localhost/example/public/index.php/guardarpdf
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
+
+http://localhost/example/public/index.php
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
