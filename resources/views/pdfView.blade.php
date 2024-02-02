@@ -1,9 +1,4 @@
-<?php
-$showSaludo = false; // Variable para determinar si mostrar el saludo
-if (isset($_GET['page']) && $_GET['page'] > 1) {
-    $showSaludo = true;
-}
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +19,7 @@ if (isset($_GET['page']) && $_GET['page'] > 1) {
             font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
         }
         @page{
-            margin:3cm 0.5cm 0.4cm 0.5cm;
+            margin:3cm 1cm 0.4cm 1cm;
         }
         #header{
             position:fixed;
@@ -46,9 +41,9 @@ if (isset($_GET['page']) && $_GET['page'] > 1) {
 </table>
 <table style="width: 100%; border:1px solid black; text-align:center ; " id="myTable">
     <tr>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px ">OBLIGACIONES CONTRACTUALES </td>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px ">DESARROLLO DE ACTIVIDADES </td>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px ">EVIDENCIAS </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px ">OBLIGACIONES CONTRACTUALES </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px ">DESARROLLO DE ACTIVIDADES </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px ">EVIDENCIAS </td>
     </tr>
 </table>
 <br>
@@ -57,41 +52,41 @@ if (isset($_GET['page']) && $_GET['page'] > 1) {
    <div class=""  >
    <table style="width: 100%; border:1px solid black; text-align:left;font-size:13px">
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">INFORME NÚMERO:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;INFORME NÚMERO:</td>
         <td style="width: 63%;border:1px solid black; background:white">3</td>
     </tr>
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold;background:#E6E6E6">FECHA:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold;background:#E6E6E6">&nbsp;FECHA:</td>
         <td style="width: 63%;border:1px solid black; background:white">31 DE AGOSTO 2023 </td>
     </tr>
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">PERIODO (MES QUE COBRA):</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;PERIODO (MES QUE COBRA):</td>
         <td style="width: 63%;border:1px solid black; background:white">DEL 1 AL 31 DE AGOSTO DE 2023 </td>
     </tr>  
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">DEPENDENCIA O PROYECTO:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;DEPENDENCIA O PROYECTO:</td>
         <td style="width: 63%;border:1px solid black; background:white">UNIDAD FAMILIA MEDELLIN</td>
     </tr>  
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">APELLIDOS Y NOMBRE:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;APELLIDOS Y NOMBRE:</td>
         <td style="width: 63%;border:1px solid black; background:white">GRACIANO AGUDELO DEIBY ESTIVEN</td>
     </tr>  
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6"> CONTRATO:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;CONTRATO:</td>
         <td style="width: 63%;border:1px solid black;">3660-2023</td>
     </tr>
     </tr> 
      <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">DURACIÓN CONTRATO:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;DURACIÓN CONTRATO:</td>
         <td style="width: 63%;border:1px solid black;">Del 1 de junio al 31 de agosto de 2023 </td>
     </tr>  <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">PORCENTAJE DE EJECUCIÓN</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">&nbsp;PORCENTAJE DE EJECUCIÓN</td>
         <td style="width: 63%;border:1px solid black;">100.00% </td>
     </tr>
     <tr>
-        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6">OBJETO:</td>
+        <td style="width: 33%;border:1px solid black;font-weight:bold; background:#E6E6E6;vertical-align: top">&nbsp;OBJETO:</td>
         <td style="width: 63%;border:1px solid black;">PRESTACIÓN DE SERVICIOS PERSONALES COMO ANÁLISIS DE SOPORTE 
-            INFORMÁTICO A LAS APLICACIONES Y GESTIÓN DE LA INFORMACIÓN-CIF 
+            INFORMÁTICO A LAS APLICACIONES Y GESTIÓN DE LA INFORMACIÓN CIF 
             PARA LA GESTIÓN Y FORTALECIMIENTO TERRITORIAL, ACOMPAÑAMIENTO 
             PSICOSOCIAL Y FAMILIAR BUSCANDO FORTALECER EL BIENESTAR SOCIAL DE 
             LA POBLACIÓN VULNERABLE </td>
@@ -103,9 +98,9 @@ if (isset($_GET['page']) && $_GET['page'] > 1) {
 
 <table style="width: 100%; border:1px solid black; text-align:center">
     <tr>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px">OBLIGACIONES CONTRACTUALES </td>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px">DESARROLLO DE ACTIVIDADES </td>
-        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:14px">EVIDENCIAS </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px">OBLIGACIONES CONTRACTUALES </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px">DESARROLLO DE ACTIVIDADES </td>
+        <td style="width: 33.33%;border:1px solid black;background:#E6E6E6;font-weight:bold; font-size:13px">EVIDENCIAS </td>
     </tr>
 </table>
 

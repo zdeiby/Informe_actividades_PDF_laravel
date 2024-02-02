@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\indexController;
+use App\Http\Controllers\activitiesController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,8 +17,8 @@ use App\Http\Controllers\indexController;
 */
 
 //Route::get('/hola', homeController::class);
-Route::get('/', [indexController::class,'index']);
-
+Route::get('/inicio', [indexController::class,'index']);
+Route::get('/', [activitiesController::class, 'activities']);
 
 Route::get('/guardar', [indexController::class, 'guardar']);
 Route::get('/leer', [indexController::class, 'leer']);
