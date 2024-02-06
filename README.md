@@ -1,11 +1,20 @@
 Practicas en laravel, entre ellas: registro a base de datos, lectura de base de datos, navegacion, Creacion de informe pdf
 ![alt text](image-4.png)
+.
 ![alt text](image-5.png)
+.
 ![alt text](image-6.png)
+.
 ![alt text](image-7.png)
+.
 ![Alt text](image.png)
+.
 ![alt text](image-8.png)
+.
 ![alt text](image-9.png)
+.
+![alt text](image-10.png)
+.
 http://localhost/example/public/index.php/guardarpdf
 
 ![Alt text](image-1.png)
