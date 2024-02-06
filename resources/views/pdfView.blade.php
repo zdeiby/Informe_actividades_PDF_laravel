@@ -105,59 +105,33 @@
 </table>
 
 <!-- primer cuadro a foreach -->
-   <table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
-<table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
-<table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
-<table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
-<table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
-<table style="width: 100%; border:1px solid black; text-align:center;">
-    <tr>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">En física, una onda es una propagación de una perturbación de alguna propiedad de un medio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-        <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="assets/img1.jpg" width="100%"/></td>
-    </tr>
-</table>
+<?php
+$ultimoIndice = count($variable) - 1;
+foreach ($variable as $key => $value) { 
+    if ($key < $ultimoIndice) { ?>
+    <table style="width: 100%; border:1px solid black; text-align:center;">
+        <tr>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">{{$value->objeto}}</td>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2">{{$value->objeto}}</td>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;"  class="pt-4 pb-2"><img src="../storage/app/public/temp/<?php echo $value->foto;?>.jpg" width="100%"/></td>
+        </tr>
+    </table>
+<?php }} ?>
+   
+
 <!-- fin primer cuadro a foreach -->
 
    <!-- ultimo cuadro -->
-    <table style="">
+  
+    <table style=""> 
+    <?php if(isset($variable[0]->foto)){ ?>
     <table style="width: 100%; border:1px solid black; text-align:center;">
         <tr>
-            <td style="width: 33.33%;border:1px solid black;vertical-align: top;" class="pt-4 pb-2">asdasdasdasd Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse natus quia mollitia officiis maiores pariatur sequi in, ipsa minima maxime ad. Qui sequi, incidunt magni ea neque quo dignissimos laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod at quo sunt ut quaerat sint quas quae sit impedit nesciunt, quasi placeat ex omnis accusamus. Iste excepturi accusantium esse!</td>
-            <td style="width: 33.33%;border:1px solid black;vertical-align: top;" class="pt-4 pb-2"> Densidad, presión, campo eléctrico o campo magnético, que se propaga a través del espacio transportando energía. El medio perturbado puede ser de naturaleza diversa como aire, agua, un trozo de metal o el vacío.</td>
-            <td style="width: 33.33%;border:1px solid black;vertical-align: top;"><img class="mt-4 pb-2" src="assets/img1.jpg" width="100%"/></td>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;" class="pt-4 pb-2"><?php echo isset(end($variable)->objeto)? end($variable)->objeto : '';?></td>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;" class="pt-4 pb-2"> <?php echo isset(end($variable)->actividad)? end($variable)->actividad : '';?></td>
+            <td style="width: 33.33%;border:1px solid black;vertical-align: top;"><img class="mt-4 pb-2" src="../storage/app/public/temp/<?php echo isset(end($variable)->foto)? end($variable)->foto :'';?>.jpg" width="100%"/></td>
         </tr>
-    </table>  
+    </table>  <?php }?> 
     <div class="" style="padding-top:100px;padding-left:20px">
     <label for="" style="font-weight:bold;padding-bottom:10px">Firma contratista</label><br>
     <label>NOMBRES Y APELLIDOS: </label><label for="">&nbsp;&nbsp;Deiby Estiven Graciano Agudelo</label><br>
@@ -165,11 +139,12 @@
     <label for="" style="padding-top:80px;font-weight:bold">Firma Coordinador (a)  </label>
     </div>  
     </table>
+   
 </div>
  <!--fin  ultimo cuadro -->
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-   <script type="text/php">
+   <!-- <script type="text/php">
         if (isset($pdf)) {
         $x = 515;
         $y = 815;
@@ -183,7 +158,7 @@
         $pdf->page_text($x, $y, $text, $font, $size, $color, $word_space, $char_space, $angle);
 
     }
-    </script>
+    </script> -->
  
 
 
